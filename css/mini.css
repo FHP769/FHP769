@@ -1,0 +1,35 @@
+.credits{
+
+    position: relative;
+    padding-left: 1px;
+    padding-top: 205px;
+}
+
+.randonButton{
+
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    height: 250px;
+    cursor: pointer;
+
+}
+
+.boxResults{
+
+position: inherit;
+
+}
+
+#statistiquesRight{
+
+    position: absolute;
+    width: 450px;
+    height: 721px;
+    top: 0px;
+    margin-left: 1069px;
+    background: grey;
+
+}
