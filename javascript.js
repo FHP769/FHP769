@@ -5,14 +5,28 @@ var randomNumber;
 var bolLogin = false;
 var nologinbanner = false;
 
-//Username info
-var firstName;
-var lastName;
-var email;
-var phoneNumber;
+//Login + search
+function userQuery(){
+
+  //Username info
+  var firstName = document.getElementById('input-Prenom').value;
+  var lastName = document.getElementById('input-Nom').value;
+  var email = document.getElementById('input-email').value;
+
+  if (firstName !== '' && lastName !== '' && email !== '')
+  {
+    bolLogin = true;
+    functionrandomUrl();
+  }
+  else
+  {
+    nologinbanner = true;
+  
+  }
+}
 
 // Charge onClick function, puis cherche le ficher Json pour ensuite convertir les Url en Random number
-function LoadRID(){
+function functionrandomUrl(){
 
 fetch("Data/data.json").then(response => response.json())
 .then(data => {
@@ -24,11 +38,6 @@ fetch("Data/data.json").then(response => response.json())
         window.location.href = randomUrl;
         document.getElementById("RN").value = randomNumber;
         console.log('this')
-      }else {
-        nologinbanner = true
       }
-
 })}
-
-// Get adress
 
