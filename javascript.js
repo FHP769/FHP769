@@ -1,5 +1,6 @@
 //Random number value
 var randomNumber;
+var test = 'test';
 
 //login Bool
 var bolLogin = false;
@@ -35,9 +36,8 @@ fetch("Data/data.json").then(response => response.json())
   if (bolLogin === true) {
         var randomNumber = Math.round(Math.random() * urlDatabase.length);
         var randomUrl = urlDatabase[randomNumber];
-        window.location.href = randomUrl;
+        window.open(randomUrl, target="_blank")
         document.getElementById("RN").value = randomNumber;
-        console.log('this')
       }
 })}
 
