@@ -15,10 +15,6 @@ body {
 	border:0;
 }
 
-#wrapper {
-	border: 1px solid #000;
-}
-
 .randonButton {
   display: block;
   position:relative;
