@@ -8,14 +8,6 @@ body {
   );
 }
 
-.credits {
-  display: block;
-  position: relative;
-  padding-left: 1px;
-  padding-top: 112px;
-  z-index: 4;
-}
-
 .randonButton {
   display: block;
   position:relative;
@@ -32,7 +24,6 @@ body {
 }
 
 .statistiquesRight {
-  display: block;
   position: absolute;
   width: 380px;
   height: 722px;
@@ -42,4 +33,18 @@ body {
   background: rgb(105,177,239);
   background: linear-gradient(21deg, rgba(105,177,239,1) 0%, rgba(235,119,238,1) 83%); 
   box-shadow: -2px 0 18px 3px;
+}
+
+#Credits{
+
+  position: relative;
+  margin-top: 111px;
+  margin-right: 1px;
+}
+
+#Legal{
+  
+  position: relative;
+  margin-top: 111px;
+  margin-right: 1px;
 }
