@@ -32,9 +32,12 @@ function functionrandomUrl() {
     .then((data) => {
       let urlDatabase = data.urlDatabase;
 
-        var randomNumber = Math.round(Math.random() * urlDatabase.length);
-        var randomUrl = urlDatabase[randomNumber];
-        window.open(randomUrl, (target = "_blank", rel="noopener noreferrer"));
-        document.getElementById("RN").value = randomNumber;
+      var randomNumber = Math.round(Math.random() * urlDatabase.length);
+      var randomUrl = urlDatabase[randomNumber];
+      window.open(
+        randomUrl,
+        ((target = "_blank"), (rel = "noopener noreferrer"))
+      );
+      document.getElementById("RN").value = randomNumber;
     });
 }
