@@ -9,39 +9,37 @@ body {
 }
 
 .credits {
+  display: block;
   position: relative;
-  padding-left: 00%;
-  padding-top: 7.3%;
+  padding-left: 1px;
+  padding-top: 112px;
   z-index: 4;
 }
 
 .randonButton {
   display: block;
-  position: relative;
+  position:relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10%;
-  width: 19%;
+  margin-top: 135px;
+  height: 310px;
   cursor: pointer;
   z-index: 3;
   box-shadow: 6px 10px 20px #414647;
-  /* box-shadow: 10px 10px 2px black;*/
+ /* box-shadow: 10px 10px 2px black;*/
   opacity: 10;
-  border-radius: 90%;
+  border-radius: 90%
 }
 
-#statistiquesRight {
+.statistiquesRight {
+  display: block;
   position: absolute;
-  width: 24.7%;
-  height: 99.9%;
-  margin-top: -37.8%;
-  margin-left: 75.3%;
+  width: 380px;
+  height: 722px;
+  top: 0px;
+  margin-left: 1156px;
   z-index: 2;
-  background: rgb(105, 177, 239);
-  background: linear-gradient(
-    21deg,
-    rgba(105, 177, 239, 1) 0%,
-    rgba(235, 119, 238, 1) 83%
-  );
+  background: rgb(105,177,239);
+  background: linear-gradient(21deg, rgba(105,177,239,1) 0%, rgba(235,119,238,1) 83%); 
   box-shadow: -2px 0 18px 3px;
 }
