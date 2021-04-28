@@ -11,8 +11,6 @@ var nologinbanner = false;
 function userQuery() {
   //Username info
 
-  document.location.reload();
-  
   var firstName = document.getElementById("input-Prenom").value;
   var lastName = document.getElementById("input-Nom").value;
   var email = document.getElementById("input-email").value;
