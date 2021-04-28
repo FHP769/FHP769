@@ -16,7 +16,7 @@ body {
   margin-top: 135px;
   height: 310px;
   cursor: pointer;
-  z-index: 3;
+  z-index: 1;
   box-shadow: 6px 10px 20px #414647;
  /* box-shadow: 10px 10px 2px black;*/
   opacity: 10;
@@ -35,16 +35,3 @@ body {
   box-shadow: -2px 0 18px 3px;
 }
 
-#Credits{
-
-  position: relative;
-  margin-top: 111px;
-  margin-right: 1px;
-}
-
-#Legal{
-  
-  position: relative;
-  margin-top: 111px;
-  margin-right: 1px;
-}
