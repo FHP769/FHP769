@@ -25,10 +25,10 @@ body {
 
 .statistiquesRight {
   position: absolute;
-  width: 380px;
-  height: 722px;
-  top: 0px;
-  margin-left: 1156px;
+  width: 25%;
+  height: 99.9%;
+  top: 0%;
+  margin-left: 75%;
   z-index: 2;
   background: rgb(105,177,239);
   background: linear-gradient(21deg, rgba(105,177,239,1) 0%, rgba(235,119,238,1) 83%); 
