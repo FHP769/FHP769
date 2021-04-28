@@ -2,7 +2,6 @@
 var randomNumber;
 
 //Boolean pour les login
-var bolLogin = false;
 var nologinbanner = false;
 
 //Invocation de la function issue de l'event trigger 'OnClick' depuis le HTML
@@ -18,7 +17,6 @@ function userQuery() {
   document.location.reload();
 
   if (firstName !== "" && lastName !== "" && email !== "") {
-    bolLogin = true;
     functionrandomUrl();
   } else {
     nologinbanner = true;
@@ -34,11 +32,9 @@ function functionrandomUrl() {
     .then((data) => {
       let urlDatabase = data.urlDatabase;
 
-      if (bolLogin === true) {
         var randomNumber = Math.round(Math.random() * urlDatabase.length);
         var randomUrl = urlDatabase[randomNumber];
         window.open(randomUrl, (target = "_blank", rel="noopener noreferrer"));
         document.getElementById("RN").value = randomNumber;
-      }
     });
 }
