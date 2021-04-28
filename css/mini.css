@@ -9,7 +9,7 @@ body {
 }
 
 .credits {
-  position: relative;
+  position: initial;
   padding-left: 00%;
   padding-top: 7.3%;
   z-index: 4;
