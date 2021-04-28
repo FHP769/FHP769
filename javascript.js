@@ -9,7 +9,6 @@ var nologinbanner = false;
 // Regarde si l'utilisateur a entree des donnees
 function userQuery() {
   //Username info
-  document.location.reload();
 
   var firstName = document.getElementById("input-Prenom").value;
   var lastName = document.getElementById("input-Nom").value;
