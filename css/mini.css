@@ -9,7 +9,7 @@ body {
 }
 
 .credits {
-  position: initial;
+  position: relative;
   padding-left: 00%;
   padding-top: 7.3%;
   z-index: 4;
@@ -17,7 +17,7 @@ body {
 
 .randonButton {
   display: block;
-  position:initial;
+  position:relative;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
@@ -31,7 +31,7 @@ body {
 }
 
 #statistiquesRight {
-  position: absolute;
+  position: relative;
   width: 24.7%;
   height: 99.9%;
   top: 0%;
