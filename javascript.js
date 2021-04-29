@@ -19,7 +19,7 @@ function userQuery() {
   if (firstName !== "" && lastName !== "" && email !== "") {
     functionrandomUrl();
   } else {
-    nologinbanner = true;
+    document.location.reload();
   }
 }
 
