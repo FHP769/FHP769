@@ -15,14 +15,13 @@
     <title>NextOnEarth</title>
   </head>
   <body>
-
     <!--Image de la terre-->
 
     <div>
       <img
         src="images\earth.png"
         alt=""
-        onclick="userQuery()"
+        onclick="userInfo(), stpage()"
         class="randonButton"
       />
     </div>
@@ -36,7 +35,7 @@
 
     <!--Les informations perssonnels-->
 
-    <div style="margin-left: 4px;">
+    <div style="margin-left: 4px">
       <input
         type="text"
         name="firstName"
@@ -64,7 +63,13 @@
     <!--Statistique-->
 
     <div class="statistiquesRight">
-      <h2>Les Statistiques</h2>
+      <div class="domStats">
+        <h2>Les Statistiques</h2>
+        <div class="articleStats">
+          <p id="disSTPAGE">Nombre d'article visitées:</p>
+          <p id="stPage">0</p>
+        </div>
+      </div>
     </div>
 
     <!--Bouttons Credits et Legal-->
@@ -115,6 +120,6 @@
       crossorigin
     ></script>
     <!-- Load our React component. -->
-    <script src="like_button.js"></script>
+    <script src="statistiques.js"></script>
   </body>
 </html>

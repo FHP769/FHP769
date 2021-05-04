@@ -7,14 +7,7 @@ var nologinbanner = false;
 //Invocation de la function issue de l'event trigger 'OnClick' depuis le HTML
 // Recuperation des elements stockees dans les cases a username etc
 // Regarde si l'utilisateur a entree des donnees
-function userQuery() {
-  //Username info
-
-  var firstName = document.getElementById("input-Prenom").value;
-  var lastName = document.getElementById("input-Nom").value;
-  var email = document.getElementById("input-email").value;
-
-  document.location.reload();
+function userQuery(firstName, lastName, email) {
 
   if (firstName !== "" && lastName !== "" && email !== "") {
     functionrandomUrl();
@@ -40,4 +33,13 @@ function functionrandomUrl() {
       );
       document.getElementById("RN").value = randomNumber;
     });
+}
+
+//Informations sur les utilisateur, ou les infos vont pouvoir etre recuperer
+
+function userInfo() {
+  let userInput1 = document.getElementById("input-Prenom").value;
+  let userInput2 = document.getElementById("input-Nom").value;
+  let userInput3 = document.getElementById("input-email").value;
+  userQuery(userInput1, userInput2, userInput3);
 }
