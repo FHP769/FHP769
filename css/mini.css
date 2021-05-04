@@ -28,7 +28,7 @@ body {
   margin-top: 135px;
   height: 310px;
   cursor: pointer;
-  z-index: 4;
+  z-index: 1;
   box-shadow: 6px 10px 20px #414647;
  /* box-shadow: 10px 10px 2px black;*/
   opacity: 10;

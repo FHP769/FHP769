@@ -8,9 +8,11 @@ var randomNumber;
 function userQuery(firstName, lastName, email) {
   if (firstName !== "" && lastName !== "" && email !== "") {
     functionrandomUrl();
+    stpage();
   } else {
-    nologinbanner = true;
-  }}
+      loginRequired();
+  }
+}
 
 // Cherche le ficher Json, le convertis en objet javascript
 // Utilisation de la function Math de javascript pour generer une url aleatoire
@@ -26,14 +28,14 @@ function functionrandomUrl() {
         randomUrl,
         ((target = "_blank"), (rel = "noopener noreferrer"))
       );
-    });
-  }
-    //Informations sur les utilisateur, ou les infos vont pouvoir etre recuperer
+    });}
 
 
+//Informations sur les utilisateur, ou les infos vont pouvoir etre recuperer
 function userInfo() {
   let userInput1 = document.getElementById("input-Prenom").value;
   let userInput2 = document.getElementById("input-Nom").value;
   let userInput3 = document.getElementById("input-email").value;
   userQuery(userInput1, userInput2, userInput3);
 }
+
