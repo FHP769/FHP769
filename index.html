@@ -33,6 +33,20 @@
       </h5>
     </div>
 
+    <!-- Pop-up, non connecte -->
+
+    <div id="popCo">
+      <div>
+        <h1 id="pop1">
+          Veuillez vous connecter pour pouvoir utliser l'application
+        </h1>
+        <p id="pop2">
+          Sur le côté gauche de l'écran entre t'es informations pour pouvoir
+          continuer a utiliser "Next On Earth"
+        </p>
+      </div>
+    </div>
+
     <!--Les informations perssonnels-->
 
     <div>
@@ -64,11 +78,42 @@
 
     <div class="statistiquesRight">
       <div class="domStats">
-        <h2>Les Statistiques</h2>
-        <div class="articleStats">
-          <p id="disSTPAGE">Nombre d'article visitées:</p>
-          <p id="stPage">0</p>
+        <h2 style="margin-left: 18%">-Les Statistiques-</h2>
+        <div>
+          <p class="articleStatsl">Nombre d'article visités:</p>
+          <p class="articleStatsl" id="statspress">0</p>
         </div>
+      </div>
+    </div>
+
+    <!-- Page d'explication -->
+
+    <div class="explicationPage">
+      <img src="images/green.png" alt="ProjetDesc" id="greenDescription" />
+      <div>
+        <h2 id="titleDesc">Pourquoi le projet "Next On earth"</h2>
+        <p class="desc1">
+          Le but est de pouvoir rendre accessible le plus simplement possible la
+          <span style="background-color: yellow">
+            diffusions d'information</span
+          >
+          sur le thème de l'environnement,
+          <span style="background-color: yellow">en un clique</span> vous pouvez
+          consulter des articles sans même avoir besoin de faire des recherches
+          sur le sujet.
+        </p>
+        <p class="desc2">
+          En obligeant les utilisateurs à se connecter pour pouvoir utiliser la
+          platform, "next on earth" recoltes les information d'inscriptions,
+          <span style="background-color: yellow"
+            >qui seront utilisé dans le but de financer des projets lier au
+            thème de l'environnement</span
+          >, vous pouvez retrouver plus d'informations à ce sujet dans l'onglet
+          "Légal"
+        </p>
+        <p class="desc3">
+          Projet réalisé dans l'optique de la réalisation d'un projet personnel
+        </p>
       </div>
     </div>
 
@@ -77,17 +122,14 @@
     <div>
       <a
         class="btn btn-secondary btn-sm"
-        style="position: absolute; margin-right: 0px; top: 95.5%"
+        id="creditsButton"
         href="./Credits.html"
         >Credits</a
       >
     </div>
 
     <div>
-      <a
-        class="btn btn-secondary btn-sm"
-        style="position: absolute; margin-left: 65px; top: 95.5%"
-        href="./Legal.html"
+      <a class="btn btn-secondary btn-sm" id="legalButton" href="./Legal.html"
         >Legal</a
       >
     </div>
