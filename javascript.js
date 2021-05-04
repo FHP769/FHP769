@@ -26,7 +26,7 @@ function functionrandomUrl() {
       var randomUrl = urlDatabase[randomNumber];
       window.open(
         randomUrl,
-        ((target = "_blank"), (rel = "noopener noreferrer"))
+        ((target = "_blank"))
       );
     });}
 

@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+
+
 body {
   /* background-image: linear-gradient( 135deg, #FFF886 10%, #F072B6 100%);*/
   background: rgb(254, 122, 255);
@@ -6,49 +17,70 @@ body {
     rgba(254, 122, 255, 1) 0%,
     rgba(55, 154, 237, 1) 67%
   );
+  min-height: 100%;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
-
-
-* {
-	margin:0;
-	padding:0;
-	border:0;
+html {
+  height: 100%;
 }
-
 
 .randonButton {
   display: block;
-  position:relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 135px;
-  height: 310px;
+  position: absolute;
+  margin-left: 38.6%;
+  margin-top: 11.3%;
+  height: 45%;
   cursor: pointer;
   z-index: 1;
   box-shadow: 6px 10px 20px #414647;
- /* box-shadow: 10px 10px 2px black;*/
   opacity: 10;
-  border-radius: 90%
+  border-radius: 90%;
 }
 
 .statistiquesRight {
   position: absolute;
   width: 25%;
-  height: 99.9%;
+  height: 100%;
   top: 0%;
   margin-left: 75%;
   z-index: 1;
-  background: rgb(105,177,239);
-  background: linear-gradient(21deg, rgba(105,177,239,1) 0%, rgba(235,119,238,1) 83%); 
+  background: rgb(105, 177, 239);
+  background: linear-gradient(
+    21deg,
+    rgba(105, 177, 239, 1) 0%,
+    rgba(235, 119, 238, 1) 83%
+  );
   box-shadow: -2px 0 18px 3px;
 }
 
+#input-Prenom{
+  position: absolute;
+  margin-top: 17.7%;
+  margin-left: 2.6%;
+  width: 13%;
+  padding: 0.3%;
+  box-sizing: border-box;
+}
 
-.articleStats:nth-child(2){
+#input-Nom{
+  position: absolute;
+  margin-top: 18.4%;
+  margin-left: 2.6%;
+  width: 13%;
+  padding: 0.3%;
+  box-sizing: border-box;
+}
+
+#input-email{
+  position: absolute;
+  margin-top: 19.1%;
+  margin-left: 2.6%;
+  width: 13%;
+  padding: 0.3%;
+  box-sizing: border-box;
+}
+
+.articleStats:nth-child(2) {
   font-size: 50px;
   display: inline-block;
 }
