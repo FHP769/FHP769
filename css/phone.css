@@ -1,0 +1,211 @@
+@media (max-width: 480px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  .First-tp {
+    background: rgb(254, 122, 255);
+    background: linear-gradient(
+      96deg,
+      rgba(254, 122, 255, 1) 0%,
+      rgba(55, 154, 237, 1) 67%
+    );
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .gridFirstTP {
+    display: grid;
+    justify-items: end;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+  }
+
+  .imageBTN {
+    width: 94%;
+    margin-top: 16%;
+    box-shadow: 7px 9px 14px rgba(41, 41, 41, 0.651);
+    border-radius: 50%;
+  }
+  .randonButton {
+    grid-column: 1/3;
+    grid-row: 2/2;
+    justify-self: center;
+  }
+
+  .headAlert {
+    grid-column: 1/3;
+    grid-row: 1/1;
+    text-align: center;
+    width: 100%;
+    font-size: 107%;
+    font-weight: 700;
+    text-shadow: 4px 4px 13px rgba(5, 5, 5, 0.466);
+    margin-top: 3.5%;
+  }
+
+  .usrInput {
+    grid-column: 1/3;
+    grid-row: 3/3;
+    justify-self: center;
+    margin-top: 15%;
+  }
+
+
+  #input-Prenom{
+    height: 23%;
+    width: 118%;
+    margin-left: -10%;
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.445);
+    
+  }
+
+  #input-Nom{
+    height: 23%;
+    width: 118%;
+    margin-left: -10%;
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.445);
+  }
+
+  #input-email{
+    height: 23%;
+    width: 118%;
+    margin-left: -10%;
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.445);
+  }
+
+
+
+  #popCo {
+    grid-column: 1/3;
+    grid-row: 2/2;
+    display: none;
+    justify-self: center;
+    background-color: rgba(231, 74, 26, 0.479);
+    border-radius: 4%;
+  }
+
+  #pop1 {
+    display: grid;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 2%;
+  }
+  #pop2 {
+    display: grid;
+    text-align: center;
+    font-size: 120%;
+    margin-top: 8%;
+  }
+  
+  .statistiquesRight {
+    margin-top: 17%;
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 4/4;
+    background: rgb(105, 177, 239);
+    background: linear-gradient(
+      21deg,
+      rgba(105, 177, 239, 1) 0%,
+      rgba(235, 119, 238, 1) 83%
+    );
+    box-shadow: -6px 0px 15px -4px;
+  }
+
+  .boxStatsa {
+    margin-left: 2.5%;
+  }
+
+  .articleStatsb {
+    margin-top: 2.5%;
+    display: inline-block;
+    font-size: 135%;
+  }
+
+  .rightstats {
+    margin-top: 3.44%;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+  
+
+  .Blogtwos {
+    background: rgb(48, 150, 28);
+  }
+
+  .explicationPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    justify-items: end;
+    height: 100vh;
+  }
+
+  .ImageBlogB {
+    grid-column: 1/3;
+    grid-row: 2/2;
+    display: grid;
+  }
+
+  .ImageBlocksi{
+    justify-self: center;
+    width: 40%;
+    margin-top: 8%;
+  }
+
+  .Desccapone {
+    grid-column: 1/3;
+    grid-row: 1/1;
+    margin-top: 4.5%;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.644);
+  }
+
+  .desccaptionB {
+    grid-column: 1/3;
+    grid-row: 3/3;
+    width: 98%;
+    margin-top: 9.5%;
+    font-size: 110%;
+    font-weight: 500;
+    text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.63);
+    text-align: center;
+  }
+
+  .Desccaptwo {
+    justify-self: center;
+    grid-column: 1/3;
+    grid-row: 4/4;
+    width: 98%;
+    margin-top: 4.9%;
+    font-size: 110%;
+    font-weight: 500;
+    text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.63);
+    text-align: center;
+  }
+
+  .Desccapthree {
+    justify-self: center;
+    grid-column: 1/3;
+    grid-row: 5/5;
+    width: 98%;
+    margin-top: 4.9%;
+    font-size: 110%;
+    font-weight: 500;
+    text-shadow: 4px 4px 13px rgba(0, 0, 0, 0.63);
+    text-align: center;
+  }
+}

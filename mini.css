@@ -2,13 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  /* background-image: linear-gradient( 135deg, #FFF886 10%, #F072B6 100%);*/
   background: rgb(254, 122, 255);
   background: linear-gradient(
     96deg,
@@ -28,59 +30,49 @@ html {
   background: transparent;
 }
 
+
 .randonButton {
-  display: block;
-  position: absolute;
-  margin-left: 38.6%;
-  margin-top: 11.3%;
-  height: 45%;
+  left: 40%;
+  top: 5%;
   cursor: pointer;
-  z-index: 1;
-  box-shadow: 6px 10px 20px #414647;
-  opacity: 10;
-  border-radius: 90%;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px black;
 }
 
 /* Statistique box */
 .statistiquesRight {
-  position: absolute;
-  width: 25%;
-  height: 100%;
-  top: 0%;
-  margin-left: 75%;
-  z-index: 1;
+
+  top: 1%;
+  width: 5%;
   background: rgb(105, 177, 239);
   background: linear-gradient(
-    21deg,
-    rgba(105, 177, 239, 1) 0%,
-    rgba(235, 119, 238, 1) 83%
-  );
-  box-shadow: -6px 0px 15px -4px;
+  21deg,
+  rgba(105, 177, 239, 1) 0%,
+  rgba(235, 119, 238, 1) 83%
+);
+box-shadow: -6px 0px 15px -4px;
 }
 
 /* input form */
 #input-Prenom {
-  position: absolute;
-  margin-top: 17.7%;
-  margin-left: 2.6%;
+  top: 0%;
+  left: 2%;
   width: 13%;
   padding: 0.3%;
   box-sizing: border-box;
 }
 
 #input-Nom {
-  position: absolute;
-  margin-top: 18.4%;
-  margin-left: 2.6%;
+  top: 0%;
+  left: 2%;
   width: 13%;
   padding: 0.3%;
   box-sizing: border-box;
 }
 
 #input-email {
-  position: absolute;
-  margin-top: 19.1%;
-  margin-left: 2.6%;
+  top: 0%;
+  left: 2%;
   width: 13%;
   padding: 0.3%;
   box-sizing: border-box;
@@ -88,24 +80,26 @@ html {
 
 /* Statistiques */
 .articleStatsl {
-  margin-top: 5%;
-  margin-left: 1%;
+  top: 0%;
+  left: 2%;
   font-size: 24px;
   display: inline-block;
   font-family: "Source Sans Pro", sans-serif;
 }
 
+#rightstats{
+
+  left: 2%;
+}
 /* Boutton legal */
 #creditsButton {
-  margin-right: 0%;
-  top: 95.5%;
-  position: fixed;
+  left: 2%;
+  top: 0%;
 }
 
 #legalButton {
-  position: fixed;
-  margin-left: 4.1%;
-  top: 95.5%;
+  left: 2%;
+  top: 0%;
 }
 
 /* Page d'explication */
@@ -116,57 +110,50 @@ html {
     rgba(80, 196, 67, 1) 15%,
     rgba(132, 218, 115, 1) 57%
   );
-  position: absolute;
-  margin-top: 40.8%;
+  top: 0%;
   width: 100%;
   height: 100%;
 }
 
 #greenDescription {
-  position: absolute;
-  margin-top: 13%;
-  margin-left: 41.5%;
+  top: 0%;
+  left: 2%;
   width: 15%;
 }
 
 #titleDesc {
-  position: absolute;
-  margin-left: 34%;
-  margin-top: 1%;
+  left: 2%;
+  top: 0%;
 }
 
 .desc1 {
   width: 37%;
-  margin-left: 2%;
-  margin-top: 11%;
+  left: 2%;
+  top: 0%;
   font-size: 19px;
-  position: absolute;
   text-shadow: 2px 2px 17px black;
 }
 
 .desc2 {
   width: 37%;
-  margin-left: 2%;
-  margin-top: 25%;
+  left: 2%;
+  top: 0%;
   font-size: 19px;
-  position: absolute;
   text-shadow: 2px 2px 17px black;
 }
 
 .desc3 {
   width: 37%;
-  margin-left: 61%;
-  margin-top: 10.6%;
+  left: 2%;
+  top: 0%;
   font-size: 19px;
-  position: absolute;
   text-shadow: 2px 2px 17px black;
 }
 #popCo {
   z-index: 10;
   display: none;
-  position: fixed;
-  margin-top: 5%;
-  margin-left: 15%;
+  top: 0%;
+  left: 2%;
   background-color: #db2e2e;
   box-shadow: -11px 17px 35px 2px #404040;
   height: 70%;
@@ -176,19 +163,24 @@ html {
 }
 
 #pop1 {
-  margin-left: 10%;
-  margin-top: 2%;
+  left: 2%;
+  top: 0%;
   align-self: center;
   color: black;
   text-shadow: 1px 1px 80px black;
 }
 
 #pop2 {
-  margin-left: 2%;
-  margin-top: 5%;
+  left: 2%;
+  top: 0%;
   align-self: center;
   font-size: 22px;
   font-weight: bold;
   color: black;
   text-shadow: 1px 1px 80px black;
+}
+
+#header1{
+  top: 2%; 
+  left: 2%;
 }

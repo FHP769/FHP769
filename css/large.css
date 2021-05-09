@@ -1,0 +1,171 @@
+@media (min-width: 1024px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  .First-tp {
+    background: rgb(254, 122, 255);
+    background: linear-gradient(
+      96deg,
+      rgba(254, 122, 255, 1) 0%,
+      rgba(55, 154, 237, 1) 67%
+    );
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .gridFirstTP {
+    display: grid;
+    grid-template-columns: auto 55% auto;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+  }
+
+  .imageBTN {
+    width: 125%;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 7px 11px 18px rgba(41, 41, 41, 0.651);
+  }
+  .randonButton {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    justify-self: center;
+  }
+
+  .headAlert {
+    grid-column: 1/4;
+    grid-row: 1/1;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .usrInput {
+    grid-column: 1/1;
+    grid-row: 1/3;
+    margin-top: 86%;
+    margin-left: 2.5%;
+  }
+
+  .statistiquesRight {
+    grid-column: 4/4;
+    grid-row: 1/4;
+    background: rgb(105, 177, 239);
+    background: linear-gradient(
+      21deg,
+      rgba(105, 177, 239, 1) 0%,
+      rgba(235, 119, 238, 1) 83%
+    );
+    box-shadow: -6px 0px 15px -4px;
+  }
+
+  .boxStatsa {
+    margin-left: 2.5%;
+  }
+
+  .articleStatsb {
+    margin-top: 7.5%;
+    display: inline-block;
+    font-size: 135%;
+  }
+
+  .rightstats {
+    margin-top: 3.44%;
+    text-align: center;
+  }
+
+  #popCo {
+    grid-column: 1/3;
+    grid-row: 2/2;
+    display: none;
+    justify-items: center;
+    margin-left: 25%;
+    height: 450px;
+    width: 80%;
+
+    background-color: rgba(231, 74, 26, 0.582);
+    border-radius: 4%;
+  }
+
+  #pop1 {
+    display: grid;
+    justify-items: center;
+    font-size: 150%;
+    margin-top: 2%;
+  }
+  #pop2 {
+    display: grid;
+    justify-items: center;
+    font-size: 120%;
+    margin-top: 8%;
+  }
+
+  .Blogtwos {
+    background: rgb(48, 150, 28);
+  }
+
+  .explicationPage {
+    display: grid;
+    justify-content: end;
+    grid-template-columns: 34% 33% 34%;
+    grid-template-rows: auto auto auto;
+
+    height: 100vh;
+  }
+
+  .ImageBlogB {
+    grid-column: 2/3;
+    grid-row: 2/2;
+    display: grid;
+  }
+
+  .ImageBlogB > img {
+    max-width: 49%;
+    min-width: 49%;
+    margin-top: 15%;
+    justify-self: center;
+  }
+
+  .Desccapone {
+    grid-column: 2/3;
+    grid-row: 1/1;
+    margin-top: 2.8%;
+    justify-self: center;
+  }
+
+  .desccaptionB {
+    grid-column: 1/1;
+    grid-row: 2/2;
+    width: 100%;
+    font-size: 126%;
+    margin-top: 7%;
+    margin-left: 14%;
+    text-shadow: 4px 4px 13px black;
+  }
+
+  .Desccaptwo {
+    justify-self: center;
+    grid-column: 3/3;
+    grid-row: 2/2;
+    width: 100%;
+    font-size: 126%;
+    margin-top: 6.3%;
+    margin-right: 22.7%;
+    text-shadow: 4px 4px 13px black;
+  }
+
+  .Desccapthree {
+    justify-self: center;
+    grid-column: 3/3;
+    grid-row: 2/2;
+    width: 100%;
+    font-size: 126%;
+    margin-top: 58%;
+    margin-right: 22.7%;
+    text-shadow: 4px 4px 13px black;
+  }
+}
