@@ -47,9 +47,36 @@
   .usrInput {
     grid-column: 1/1;
     grid-row: 1/3;
-    margin-top: 86%;
-    margin-left: 2.5%;
+    margin-top: 100%;
+    margin-left: 5.5%;
   }
+
+
+#input-Prenom{
+
+  width: 82%;
+  height: 9.8%;
+  box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.445);
+
+}
+
+#input-Nom{
+
+  width: 82%;
+  height: 9.8%;
+  box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.445);
+}
+
+
+#input-email{
+
+  width: 82%;
+  height: 9.8%;
+  box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.445);
+}
+
+
+
 
   .statistiquesRight {
     grid-column: 4/4;
